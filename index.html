@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane's Bakery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="logo">Jane's Bakery</h1>
+        <nav class="navbar">
+            <a href="#popular">Popular</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Freshly Baked Every Day</h2>
+            <p>Your favorite treats, made with care.</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <section class="popular" id="popular">
+        <h2 class="section-title">Our Best Sellers</h2>
+
+        <div class="menu-grid">
+
+            <div class="menu-item">
+                <img src="assets/item1.webp" alt="Chocolate Chip Cookies">
+                <h3>Chocolate Chip Cookies</h3>
+                <p>Our classic chocolate chip cookies.</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="assets/item2.webp" alt="Vanilla Cupcakes">
+                <h3>Vanilla Cupcakes</h3>
+                <p>Soft and sweet vanilla cupcakes with vanilla frosting.</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="assets/item3.webp" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <p>Soft chocolate cake topped with icing.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="full-menu" id="menu">
+        <h2 class="section-title">Full Menu</h2>
+
+        <div class="menu-list">
+
+            <div class="menu-group">
+                <h3>Breads</h3>
+                <ul>
+                    <li>Whole Wheat Bread</li>
+                    <li>White Bread</li>
+                    <li>Sourdough</li>
+                    <li>Garlic Rolls</li>
+                </ul>
+            </div>
+
+            <div class="menu-group">
+                <h3>Cakes</h3>
+                <ul>
+                    <li>Chocolate Cake</li>
+                    <li>Vanilla Cake</li>
+                    <li>Red Velvet Cupcakes</li>
+                    <li>Vanilla Cupcakes</li>
+                </ul>
+            </div>
+
+            <div class="menu-group">
+                <h3>Pastries</h3>
+                <ul>
+                    <li>Croissants</li>
+                    <li>Cinnamon Rolls</li>
+                    <li>Chocolate Chip Cookies</li>
+                </ul>
+            </div>
+
+            <div class="menu-group">
+                <h3>Cookies</h3>
+                <ul>
+                    <li>Chocolate Chip</li>
+                    <li>Lemon</li>
+                    <li>Vanilla</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">What Customers Say</h2>
+
+        <div class="testimonials-grid">
+
+            <div class="testimonial-card">
+                <p>“Best bakery in town. The croissants are always warm and perfect!”</p>
+                <span>- Sarah M.</span>
+            </div>
+
+            <div class="testimonial-card">
+                <p>“Their cakes are really good. Every cake I order is amazing.”</p>
+                <span>- Daniel R.</span>
+            </div>
+
+            <div class="testimonial-card">
+                <p>“Friendly service and delicious always.”</p>
+                <span>- Layla K.</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Have a question or want to place an order? Send us a message.</p>
+
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 012 345 6789</p>
+            <p><strong>Email:</strong> janesbakery@gmail.com</p>
+            <p><strong>Location:</strong> 123 Street</p>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Jane's Bakery | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
